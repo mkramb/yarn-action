@@ -1,0 +1,12 @@
+name: 'Yarn Docker Actions'
+description: 'This action executes Yarn command using a Docker image.'
+
+inputs:
+  args:
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.args }}
