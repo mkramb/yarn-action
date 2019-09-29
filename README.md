@@ -15,7 +15,7 @@ This action executes Yarn command using a Docker image.
 ## Example usage
 
 ```
-uses: mkramb/yarn-action@v1
+uses: mkramb/yarn-action@master
 env:
   NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 with:
